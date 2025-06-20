@@ -1,2 +1,8 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+*sgit[[:space:]]lfs[[:space:]]track[[:space:]]*.uasset filter=lfs diff=lfs merge=lfs -text
+*.umap filter=lfs diff=lfs merge=lfs -text
+*.ubulk filter=lfs diff=lfs merge=lfs -text
+*.ucas filter=lfs diff=lfs merge=lfs -text
+*.utoc filter=lfs diff=lfs merge=lfs -text
+Added Git LFS tracking
